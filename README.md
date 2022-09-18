@@ -52,7 +52,30 @@ int usleep(useconds_t us)
 
 1. ประกอบวงจรบนบอร์ดทดลองตามใบงานที่ 1
 2. เปิด project ของใบงานที่ 1
-3. แก้ source code บรรทัด `sleep(1);` เป็น `usleep(500000);` ทั้งสองที่
+3. แก้ source code บรรทัด `sleep(1);` เป็น `usleep(500000);` ทั้งสองที่ จะได้ source code ดังนี้
+
+```c
+#include <stdio.h>
+#include <stdbool.h>
+#include <unistd.h>
+#include "driver/gpio.h"                        // เพื่อการใช้งาน digital output (GPIO)
+
+void app_main(void)
+{
+    gpio_reset_pin(22);                         // รีเซ็ตสถานะของขาหมายเลข 22
+    gpio_set_direction(22, GPIO_MODE_OUTPUT);   // กำหนดให้ขาหมายเลข 22 เป็น digital output
+
+    while (true)                                // while (true) = วนรอบไม่มีที่สิ้นสุด
+    {
+        gpio_set_level(22, 1);                  // สั่งให้ LED ติด
+        usleep(500000);                         // หน่วงเวลา 0.5 วินาที
+        gpio_set_level(22, 0);                  // สั่งให้ LED ดับ
+        usleep(500000);                         // หน่วงเวลา 0.5 วินาที
+    }
+}
+```
+
+
 4. Build และ Run โปรแกรม (อาจจะกด Run ในคราวเดียวก็ได้) 
 5. สังเกตุการกระพริบของหลอดไฟ
 6. ทดลองเปลี่ยนค่าตัวเลข _500000_ ใน `usleep(500000);` เป็นค่าอื่น ๆ  หรือกำหนดให้แต่ละที่มีค่าที่แตกต่างกัน
