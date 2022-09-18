@@ -42,4 +42,32 @@
 #include "driver/gpio.h" // เพื่อการใช้งาน digital output (GPIO)
 ```
 
+รวมทั้งเพิ่มเติมบรรทัดคำสั่งควบคุม GPIO ให้ทำงานเป็น OUTPUT สำหรับต่อ LED จนครบ 8 ดวง
+
+``` c
+    void app_main(void)
+    {
+
+        // รีเซ็ตสถานะของ Pins
+        gpio_reset_pin(23);
+        gpio_reset_pin(22);
+        gpio_reset_pin(1);
+        gpio_reset_pin(3);
+        gpio_reset_pin(21);
+        gpio_reset_pin(19);
+        gpio_reset_pin(18);
+        gpio_reset_pin(5);
+
+        // กำหนด Pins เป็น digital output
+        gpio_set_direction(23, GPIO_MODE_OUTPUT);
+        gpio_set_direction(22, GPIO_MODE_OUTPUT);
+        gpio_set_direction(1, GPIO_MODE_OUTPUT);
+        gpio_set_direction(3, GPIO_MODE_OUTPUT);
+        gpio_set_direction(21, GPIO_MODE_OUTPUT);
+        gpio_set_direction(19, GPIO_MODE_OUTPUT);
+        gpio_set_direction(18, GPIO_MODE_OUTPUT);
+        gpio_set_direction(5, GPIO_MODE_OUTPUT);
+
+        // ส่วน while loop ไม่ได้แสดงในที่นี้
+```
 
