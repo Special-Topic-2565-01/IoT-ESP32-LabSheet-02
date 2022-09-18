@@ -35,5 +35,11 @@
 </p>
 
 
-3. แก้ไข source code เพื่อสร้างโปรแกรมไฟวิ่ง
-4. 
+3. Double click ที่ main.c  ของโปรเจคใหม่ เพื่อแก้ไข source code ให้เป็นโปรแกรมไฟวิ่ง
+4. ในบรรทัดที่ 4 ให้เพิ่ม 
+
+```c
+#include "driver/gpio.h" // เพื่อการใช้งาน digital output (GPIO)
+```
+
+
