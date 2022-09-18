@@ -24,7 +24,7 @@ unsigned int sleep(unsigned int seconds)
 ```
 ซึ่งจะเห็นได้ชัดว่าเราสามารถกำหนดเวลาในการ delay ได้ต่ำสุดเป็นวินาทีเท่านั้น โดยสั่งเกตุจากพารามิเตอร์ของฟังก์ชัน  และถ้าหากต้องการ delay ให้ต่ำกว่า 1 วินาทีก็ต้องใช้ฟังก์ชันอื่นมาช่วย
 
-ภายในฟังก์ชัน `unsigned int sleep(unsigned int seconds)` นั้นได้เรียกใช้ฟังก์ชัน ```int usleep(useconds_t us)``` ซึ่งจะมีคาบเวลาในการ delay เท่ากับ 1 ส่วนล้านวินาที (1 microsecond) โดยมีรายละเอียดดังนี้
+ภายในฟังก์ชัน `unsigned int sleep(unsigned int seconds)` นั้นได้เรียกใช้ฟังก์ชัน ```int usleep(useconds_t us)``` ซึ่งจะมีคาบเวลาในการ delay เท่ากับ 1/1000000 วินาที (1 microsecond) โดยฟังก์ชันดังกล่าวมีรายละเอียดดังนี้
 
 ``` c
 int usleep(useconds_t us)
