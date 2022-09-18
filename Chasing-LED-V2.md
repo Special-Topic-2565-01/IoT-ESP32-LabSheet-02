@@ -69,7 +69,7 @@ void app_main(void)
 #include <stdio.h>
 #include <stdbool.h>
 #include <unistd.h>
-#include "driver/gpio.h"                        // เพื่อการใช้งาน digital output (GPIO)
+#include "driver/gpio.h"
 
 uint32_t ON_time = 1000000; // เปลี่ยนจาอ ON_time = 1 วินาที เป็น ON_time = 1000000 ไมโครวินาที 
                             // LED จะวิ่งเร็วเท่าเดิม
