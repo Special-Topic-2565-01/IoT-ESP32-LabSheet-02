@@ -19,3 +19,21 @@
 <img  src="Pictures/Chaser-8-leds-connection.png" alt="วงจรไฟวิ่ง 8 ดวง" style="width:500px;" >
 </p>
 
+### 3.3 สร้างโปรเจคใหม่สำหรับไฟวิ่ง 8 ดวง
+
+1. เปิดโปรแกรม ESP-IDF 
+2. สร้างโปรเจคใหม่ ชื่อ `LED-Chasing`   ([คลิกที่นี่เพื่อดูตัวอย่างขั้นตอนการสร้างโปรเจค](https://github.com/Special-Topic-2565-01/LabSheet-01))
+
+<p align="center">
+<img  src="Pictures/new-esp-idf-project.png" alt="สร้าง project ใหม่" style="width:500px;" >
+</p>
+
+หลังจากสร้างโปรเจคใหม่จะได้หน้าจอในลักษณะนี้
+
+<p align="center">
+<img  src="Pictures/created-project.png" alt="project ใหม่" style="width:500px;" >
+</p>
+
+
+3. แก้ไข source code เพื่อสร้างโปรแกรมไฟวิ่ง
+4. 
