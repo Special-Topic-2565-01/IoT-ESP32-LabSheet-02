@@ -11,3 +11,11 @@
 ### 3.2 เครื่องมือในการโปรแกรม
 1. Computer หรือ Laptop ที่ติดตั้งโปรแกรม ESP-IDF ([ถ้ายังไม่ติดตั้งให้ติดตั้งตามใบงานนี้ (คลิก) ](https://github.com/Special-Topic-2565-01/ESP-IDF-Tool-setup) )
 
+### 3.3 การประกอบวงจรสำหรับทดลอง
+1. __ถอดสาย micro usb ที่ต่อระหว่างบอร์ดและคอมพิวเตอร์ออกก่อนประกอบวงจร__
+2. ประกอบวงจรตามรูป
+
+<p align="center">
+<img  src="Pictures/Chaser-8-leds-connection.png" alt="วงจรไฟวิ่ง 8 ดวง" style="width:500px;" >
+</p>
+
