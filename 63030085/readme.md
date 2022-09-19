@@ -4,7 +4,6 @@
 |076|Wongsakorn|
 |--|----|
 |085|Samatchaya|
-|--|----|
 |092|Boyfriend of baimon|
  
  
