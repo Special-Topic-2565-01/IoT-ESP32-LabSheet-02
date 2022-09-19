@@ -4,6 +4,6 @@
 
 |No|Name|
 |--|----|
-|1|asdf chompunut|
+|1|chompunut|
 
 ##Edit on github.com
