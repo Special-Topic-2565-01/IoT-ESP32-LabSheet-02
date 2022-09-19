@@ -4,6 +4,6 @@
 |No|Name|
 |--|----|
 | 1 | Hatsawat |
-| 2 | Kongtuk |
+| 2 | Wanchalerm |
 
 ## Edit on github.com
