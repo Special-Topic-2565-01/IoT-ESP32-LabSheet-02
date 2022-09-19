@@ -5,4 +5,3 @@
 |No|Name
 |--|----|
 |1|PLOY|
-|2|Raksita|
