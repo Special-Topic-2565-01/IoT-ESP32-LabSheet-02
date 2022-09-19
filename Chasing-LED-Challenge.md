@@ -26,6 +26,7 @@
 16    ------0-
 ...
 ```
+![image](https://user-images.githubusercontent.com/92082798/190949000-34c605a9-a608-4912-bd7a-947cf97a6d50.png)
 
 *ยืด-หด*
 ```
