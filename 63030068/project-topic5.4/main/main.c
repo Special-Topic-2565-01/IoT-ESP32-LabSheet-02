@@ -5,7 +5,7 @@
 
 uint32_t ON_time = 50000;
 uint32_t OFF_time = 0;
-uint8_t LEDIO[8] = {21, 22, 23, 25, 26, 27, 32, 33};
+uint8_t LEDIO[8] = {23, 22, 1, 3, 21, 19, 18, 5};
 
 void app_main(void)
 {
