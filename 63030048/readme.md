@@ -1,5 +1,6 @@
-Challenge 1
-    #include <stdio.h>
+### Challenge 1
+   ```
+   #include <stdio.h>
     #include <stdbool.h>
     #include <unistd.h>
     #include "driver/gpio.h"
@@ -44,11 +45,13 @@ Challenge 1
             }
         }
     }
+   ```
 VDO link : https://youtu.be/O3pfaYZefko
 
 
 
-Challenge 2
+### Challenge 2
+```
     #include <stdio.h>
     #include <stdbool.h>
     #include <unistd.h>
@@ -90,11 +93,13 @@ Challenge 2
             }
         }
     }
+   ```
 VDO clip : https://youtu.be/PmmMWFTCzJo
 
 
 
-Challenge 3
+### Challenge 3
+```
     #include <stdio.h>
     #include <stdbool.h>
     #include <unistd.h>
@@ -140,4 +145,5 @@ Challenge 3
             }
         }
     }
+   ```
 VDO clip : https://youtu.be/ZcpWVyDt31E
