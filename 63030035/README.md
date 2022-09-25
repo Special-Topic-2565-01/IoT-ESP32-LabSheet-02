@@ -20,3 +20,4 @@ https://www.youtube.com/shorts/zwTSjpXBYS0
 
 https://www.youtube.com/shorts/yVZCrZxsoQ0
 
+## [3. วงจรไฟวิ่ง 8 ดวง (คลิกเพื่อเข้าสู่การทดลอง)](./chasing_led.md)
