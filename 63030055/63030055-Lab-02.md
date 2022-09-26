@@ -17,7 +17,7 @@
 ##  
 >## 2. โปรแกรมไฟวิ่ง 8 ดวง
 >>โค้ดการทดลอง :
-> ![code lab 2](/63030055/Pictures/Pic2.png)
+> ![code lab 2](/63030055/Pictures/pic2.png)
 >>วีดีโอการทดลอง : ![YouTube Video Views](https://img.shields.io/youtube/views/cUuTwHKJz6Q?style=social)
 >>
 >> [![VDO LAB 2](/63030055/Pictures/info2.png)](https://youtu.be/cUuTwHKJz6Q) 
@@ -29,7 +29,7 @@
 ##  
 >## 3. โปรแกรมไฟวิ่ง 8 ดวง รุ่นที่ 2
 >>โค้ดการทดลอง :
-> ![code lab 3](/63030055/Pictures/Pic3.png)
+> ![code lab 3](/63030055/Pictures/pic3.png)
 >>วีดีโอการทดลอง : ![YouTube Video Views](https://img.shields.io/youtube/views/HX2QOyY_lOc?style=social)
 >>
 >> [![VDO LAB 3](/63030055/Pictures/info3.png)](https://youtu.be/HX2QOyY_lOc) 
@@ -41,7 +41,7 @@
 ##  
 >## 3. โปรแกรมไฟวิ่ง 8 ดวง รุ่นที่ 3
 >>โค้ดการทดลอง :
-> ![code lab 4](/63030055/Pictures/Pic4.png)
+> ![code lab 4](/63030055/Pictures/pic4.png)
 >>วีดีโอการทดลอง : ![YouTube Video Views](https://img.shields.io/youtube/views/7VmDB8ihHug?style=social)
 >>
 >> [![VDO LAB 4](/63030055/Pictures/info4.png)](https://youtu.be/7VmDB8ihHug) 
@@ -73,7 +73,7 @@
 >16    ------0-
 >```
 >>โค้ดชาเลนจ์ที่ 1 :
-> ![code cha 1](/63030055/Pictures/Pic5.png)
+> ![code cha 1](/63030055/Pictures/pic5.png)
 >>วีดีโอการทดลอง : ![YouTube Video Views](https://img.shields.io/youtube/views/6c2s3RU3qL0?style=social)
 >>
 >> [![VDO CHA 1](/63030055/Pictures/info5.png)](https://youtu.be/6c2s3RU3qL0) 
@@ -103,7 +103,7 @@
 >16   ------00
 >```
 >>โค้ดชาเลนจ์ที่ 2 :
-> ![code cha 2](/63030055/Pictures/Pic6.png)
+> ![code cha 2](/63030055/Pictures/pic6.png)
 >>วีดีโอการทดลอง : ![YouTube Video Views](https://img.shields.io/youtube/views/TpCdoeDIGv8?style=social)
 >>
 >> [![VDO CHA 2](/63030055/Pictures/info6.png)](https://youtu.be/TpCdoeDIGv8) 
@@ -131,7 +131,7 @@
 > 14   --0--0--
 >```
 >>โค้ดชาเลนจ์ที่ 3 และ 4 :
-> ![code chr 3 and 4](/63030055/Pictures/Pic7.png)
+> ![code chr 3 and 4](/63030055/Pictures/pic7.png)
 >>วีดีโอการทดลอง : ![YouTube Video Views](https://img.shields.io/youtube/views/NGO394JLeIc?style=social)
 >>
 >> [![VDO CHA 3](/63030055/Pictures/info7.png)](https://youtu.be/NGO394JLeIc) 
