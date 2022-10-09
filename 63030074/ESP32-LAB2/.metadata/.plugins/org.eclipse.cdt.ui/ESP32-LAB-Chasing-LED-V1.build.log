@@ -1,0 +1,13 @@
+Total sizes:
+Used static DRAM:   11368 bytes ( 169368 remain, 6.3% used)
+      .data size:    9080 bytes
+      .bss  size:    2288 bytes
+Used static IRAM:   45762 bytes (  85310 remain, 34.9% used)
+      .text size:   44735 bytes
+   .vectors size:    1027 bytes
+Used Flash size :  124187 bytes
+      .text     :   89255 bytes
+      .rodata   :   34676 bytes
+Total image size:  179029 bytes (.bin may be padded larger)
+C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v4.4.2/\components\partition_table\gen_esp32part.py C:\ESP32\ESP32-LAB2\ESP32-LAB-Chasing-LED-V1\build\partition_table\partition-table.bin
+Total time taken to build the project: 6,942 ms

@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include <unistd.h>
+#include <freertos/freeRTOS.h>
+#include <driver/gpio.h>
+#include <freertos/task.h>
+#include <sdkconfig.h>
+void app_main(void)
+{
+    int led_pin1 = 21;
+    int led_pin2 = 22;
+    int led_pin3 = 23;
+    int led_pin4 = 25;
+    int led_pin5 = 26;
+    int led_pin6 = 27;
+    int led_pin7 = 32;
+    int led_pin8 = 33;
+
+    gpio_reset_pin(led_pin1);
+    gpio_reset_pin(led_pin2);
+    gpio_reset_pin(led_pin3);
+    gpio_reset_pin(led_pin4);
+    gpio_reset_pin(led_pin5);
+    gpio_reset_pin(led_pin6);
+    gpio_reset_pin(led_pin7);
+    gpio_reset_pin(led_pin8);
+
+
+   gpio_set_direction(led_pin1, GPIO_MODE_OUTPUT);
+   gpio_set_direction(led_pin2, GPIO_MODE_OUTPUT);
+   gpio_set_direction(led_pin3, GPIO_MODE_OUTPUT);
+   gpio_set_direction(led_pin4, GPIO_MODE_OUTPUT);
+   gpio_set_direction(led_pin5, GPIO_MODE_OUTPUT);
+   gpio_set_direction(led_pin6, GPIO_MODE_OUTPUT);
+   gpio_set_direction(led_pin7, GPIO_MODE_OUTPUT);
+   gpio_set_direction(led_pi...

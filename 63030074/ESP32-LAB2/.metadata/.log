@@ -1,0 +1,1555 @@
+!SESSION 2022-09-23 20:45:04.854 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2022-09-23 20:45:24.339
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-23 20:45:24.339
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-23 20:45:24.339
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.fullcleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-23 20:45:24.339
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.pythoncleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-09-23 20:45:25.057
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-23 20:45:25.057
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-23 20:45:25.057
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.fullcleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-23 20:45:25.057
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.pythoncleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-23 20:45:30.427
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-23 20:45:30.432
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-23 20:45:30.437
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-23 20:45:30.440
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:30.472
+!MESSAGE Eclipse Install location::file:/C:/Espressif/tools/espressif-ide/2.6.0/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:30.486
+!MESSAGE Updating environment variables with key:IDF_PATH value:C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:30.536
+!MESSAGE Executing C:/Espressif/python_env/idf4.4_py3.8_env/Scripts/python.exe C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf_tools.py export --format=key-value
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:33.360
+!MESSAGE OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:33.361
+!MESSAGE Key: OPENOCD_SCRIPTS Value: C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\share\openocd\scripts
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:33.362
+!MESSAGE Updating environment variables with key:OPENOCD_SCRIPTS value:C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\share\openocd\scripts
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:33.367
+!MESSAGE Key: IDF_CCACHE_ENABLE Value: 1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:33.368
+!MESSAGE Updating environment variables with key:IDF_CCACHE_ENABLE value:1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:33.373
+!MESSAGE Key: IDF_PYTHON_ENV_PATH Value: C:\Espressif\python_env\idf4.4_py3.8_env
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:33.373
+!MESSAGE Updating environment variables with key:IDF_PYTHON_ENV_PATH value:C:\Espressif\python_env\idf4.4_py3.8_env
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:33.378
+!MESSAGE Key: PATH Value: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:33.379
+!MESSAGE Updating environment variables with key:PATH value:C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\Ratchphum\AppData\Local\Microsoft\WindowsApps;C:\Users\Ratchphum\AppData\Local\GitHubDesktop\bin;C:\Users\Ratchphum\AppData\Local\Programs\Microsoft VS Code\bin;C:\Espressif\tools\idf-git\2.34.2\cmd
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:34.314
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:34.315
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v4.4.2//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:34.317
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v4.4.2//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:35.483
+!MESSAGE idf_tools.py export output: OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:35.485
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:35.486
+!MESSAGE [C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:35.989
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:35.990
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v4.4.2//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:35.991
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v4.4.2//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:37.197
+!MESSAGE idf_tools.py export output: OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:37.198
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:37.200
+!MESSAGE [C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:38.306
+!MESSAGE Command id:com.espressif.idf.ui.command.install
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:38.308
+!MESSAGE IDF_PATH :C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:38.313
+!MESSAGE GIT path:C:/Program Files/Git/cmd/git.EXE
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:38.315
+!MESSAGE No Python installations found in the system.
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:50.436
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:50.511
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:45:53.440
+!MESSAGE ESP-IDF v4.4.2-dirty
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:47:43.848
+!MESSAGE Source Template path:null
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:47:44.326
+!MESSAGE Project Name:: ESP32-LAB2-Bink1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:47:44.328
+!MESSAGE Project:: P/ESP32-LAB2-Bink1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 20:47:44.330
+!MESSAGE sdkconfig.json file could not find C:\ESP32\ESP32-LAB2\ESP32-LAB2-Bink1\build/config/sdkconfig.json
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-23 20:47:44.402
+!MESSAGE Indexed 'ESP32-LAB2-Bink1' (1 sources, 0 headers) in 0.389 sec: 2 declarations; 2 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (20%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:03:30.451
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p  flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:04:29.002
+!MESSAGE Project Name:: ESP32-LAB2-Bink1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:04:29.003
+!MESSAGE Project:: P/ESP32-LAB2-Bink1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:04:30.059
+!MESSAGE Deleting build folder C:\ESP32\ESP32-LAB2\ESP32-LAB2-Bink1\build
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:04:31.383
+!MESSAGE Renaming C:\ESP32\ESP32-LAB2\ESP32-LAB2-Bink1\sdkconfig status...true
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:04:38.800
+!MESSAGE Project Name:: ESP32-LAB2-Bink1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:04:38.801
+!MESSAGE Project:: P/ESP32-LAB2-Bink1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:04:38.802
+!MESSAGE sdkconfig.json file could not find C:\ESP32\ESP32-LAB2\ESP32-LAB2-Bink1\build/config/sdkconfig.json
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:12:35.777
+!MESSAGE Project Name:: ESP32-LAB2-Bink1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:12:35.831
+!MESSAGE Project:: P/ESP32-LAB2-Bink1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:12:43.844
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:12:57.128
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:13:02.960
+!MESSAGE Project Name:: ESP32-LAB2-Bink1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:13:02.962
+!MESSAGE Project:: P/ESP32-LAB2-Bink1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:16:34.314
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:17:28.109
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:17:28.217
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:17:53.021
+!MESSAGE Source Template path:null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-23 21:17:53.479
+!MESSAGE Indexed 'ESP32-LAB-Bink2' (1 sources, 0 headers) in 0.42 sec: 2 declarations; 2 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (20%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:28:47.262
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:29:22.667
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:51:17.919
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:52:04.171
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:52:10.160
+!MESSAGE Project Name:: ESP32-LAB-Bink2
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:52:10.161
+!MESSAGE Project:: P/ESP32-LAB-Bink2
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:52:20.136
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:53:57.643
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:54:16.682
+!MESSAGE Project Name:: ESP32-LAB-Bink2
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:54:16.683
+!MESSAGE Project:: P/ESP32-LAB-Bink2
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 21:54:23.919
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:04:57.565
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:05:06.925
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:05:15.002
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:05:46.859
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:07:09.596
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:09:06.285
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:13:10.069
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:13:32.231
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY org.eclipse.core.expressions 4 201 2022-09-23 22:13:38.702
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4109)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3639)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2022-09-23 22:13:38.706
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY org.eclipse.core.expressions 4 201 2022-09-23 22:13:44.684
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4109)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3639)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2022-09-23 22:13:44.685
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY org.eclipse.core.expressions 4 201 2022-09-23 22:13:57.306
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4109)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3639)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2022-09-23 22:13:57.306
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY org.eclipse.core.expressions 4 201 2022-09-23 22:14:11.322
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4109)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3639)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2022-09-23 22:14:11.323
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:15:24.643
+!MESSAGE Project Name:: ESP32-LAB2-Bink1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:15:24.644
+!MESSAGE Project:: P/ESP32-LAB2-Bink1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:17:54.090
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:18:02.804
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:19:45.618
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:19:45.702
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:20:21.657
+!MESSAGE Source Template path:null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-23 22:20:22.094
+!MESSAGE Indexed 'ESP32-LAB2-Bink2' (1 sources, 0 headers) in 0.392 sec: 2 declarations; 2 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (20%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:31:02.711
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:31:24.191
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:42:31.060
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:43:38.048
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:43:38.093
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:44:21.026
+!MESSAGE Source Template path:null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-23 22:44:21.826
+!MESSAGE Indexed 'ESP32-LAB-Bink3' (1 sources, 0 headers) in 0.764 sec: 2 declarations; 2 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (20%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:54:14.934
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:55:19.443
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:57:00.887
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:57:01.011
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 22:57:29.025
+!MESSAGE Source Template path:null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-23 22:57:30.349
+!MESSAGE Indexed 'ESP32-LAB-Bink4' (1 sources, 0 headers) in 1.29 sec: 2 declarations; 2 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (20%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 23:07:31.183
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-23 23:08:21.609
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+!SESSION 2022-09-24 10:34:27.915 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2022-09-24 10:34:38.660
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-24 10:34:38.660
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-24 10:34:38.660
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.fullcleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-24 10:34:38.660
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.pythoncleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-09-24 10:34:40.397
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-24 10:34:40.397
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-24 10:34:40.397
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.fullcleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-24 10:34:40.397
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.pythoncleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-24 10:34:47.329
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-24 10:34:47.336
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v4.4.2//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-24 10:34:47.341
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v4.4.2//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-24 10:34:47.483
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-24 10:34:47.486
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-24 10:34:47.489
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-24 10:34:47.491
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-24 10:34:47.506
+!MESSAGE Ignoring esp_idf.json settings as it was configured earilier.
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-24 10:34:48.658
+!MESSAGE Project Name:: ESP32-LAB-Bink4
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-24 10:34:48.660
+!MESSAGE Project:: P/ESP32-LAB-Bink4
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-24 10:34:52.892
+!MESSAGE idf_tools.py export output: OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-24 10:34:52.894
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-24 10:34:52.896
+!MESSAGE [C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%]
+!SESSION 2022-09-27 00:30:06.256 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2022-09-27 00:30:43.724
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-27 00:30:43.724
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-27 00:30:43.724
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.fullcleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-27 00:30:43.725
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.pythoncleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-09-27 00:30:47.325
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-27 00:30:47.325
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-27 00:30:47.325
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.fullcleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-27 00:30:47.325
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.pythoncleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-27 00:31:11.263
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-27 00:31:11.272
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-27 00:31:11.277
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-27 00:31:11.292
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:31:11.391
+!MESSAGE Ignoring esp_idf.json settings as it was configured earilier.
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:31:13.182
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:31:13.201
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v4.4.2//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:31:13.218
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v4.4.2//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:31:14.703
+!MESSAGE Project Name:: ESP32-LAB-Bink4
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:31:14.705
+!MESSAGE Project:: P/ESP32-LAB-Bink4
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:31:34.362
+!MESSAGE idf_tools.py export output: OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:31:34.370
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:31:34.375
+!MESSAGE [C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:46:08.647
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:46:09.036
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:46:18.424
+!MESSAGE ESP-IDF v4.4.2-dirty
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:46:32.533
+!MESSAGE Source Template path:null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-27 00:46:36.865
+!MESSAGE Indexed 'Chasing-LED-V1' (1 sources, 0 headers) in 4.13 sec: 2 declarations; 2 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (20%)
+
+!ENTRY org.eclipse.core.expressions 4 201 2022-09-27 00:47:04.108
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4109)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3639)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2022-09-27 00:47:04.111
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY org.eclipse.core.expressions 4 201 2022-09-27 00:47:11.701
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4109)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3639)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2022-09-27 00:47:11.702
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:47:46.724
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:47:46.842
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY org.eclipse.core.resources 4 2 2022-09-27 00:52:12.383
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Building ESP32-LAB-Bink4
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:466)
+	at org.eclipse.cdt.core.build.CBuilder.build(CBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:362)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:624)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:568)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:606)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:118)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2400)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.launchbar.core.target.launch.LaunchConfigurationTargetedDelegate.superBuildForLaunch(LaunchConfigurationTargetedDelegate.java:61)
+	at com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigDelegate.buildForLaunch(SerialFlashLaunchConfigDelegate.java:257)
+	at org.eclipse.launchbar.ui.internal.commands.BuildActiveCommandHandler$1$1.run(BuildActiveCommandHandler.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.core.runtime.SubMonitor.checkCanceled(SubMonitor.java:602)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1559)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:437)
+	... 23 more
+!SUBENTRY 1 com.espressif.idf.core 4 0 2022-09-27 00:52:12.384
+!MESSAGE Building ESP32-LAB-Bink4
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.core.runtime.SubMonitor.checkCanceled(SubMonitor.java:602)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1559)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:437)
+	at org.eclipse.cdt.core.build.CBuilder.build(CBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:362)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:624)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:568)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:606)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:118)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2400)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.launchbar.core.target.launch.LaunchConfigurationTargetedDelegate.superBuildForLaunch(LaunchConfigurationTargetedDelegate.java:61)
+	at com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigDelegate.buildForLaunch(SerialFlashLaunchConfigDelegate.java:257)
+	at org.eclipse.launchbar.ui.internal.commands.BuildActiveCommandHandler$1$1.run(BuildActiveCommandHandler.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.espressif.idf.core 4 0 2022-09-27 00:52:12.384
+!MESSAGE Building ESP32-LAB-Bink4
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.core.runtime.SubMonitor.checkCanceled(SubMonitor.java:602)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1559)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:437)
+	at org.eclipse.cdt.core.build.CBuilder.build(CBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:362)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:624)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:568)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:606)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:118)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2400)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.launchbar.core.target.launch.LaunchConfigurationTargetedDelegate.superBuildForLaunch(LaunchConfigurationTargetedDelegate.java:61)
+	at com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigDelegate.buildForLaunch(SerialFlashLaunchConfigDelegate.java:257)
+	at org.eclipse.launchbar.ui.internal.commands.BuildActiveCommandHandler$1$1.run(BuildActiveCommandHandler.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 566 2022-09-27 00:52:12.492
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.cdt.core 4 75 2022-09-27 00:52:12.492
+!MESSAGE Errors running builder 'CDT Core Builder' on project 'ESP32-LAB-Bink4'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Building ESP32-LAB-Bink4
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:466)
+	at org.eclipse.cdt.core.build.CBuilder.build(CBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:362)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:624)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:568)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:606)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:118)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2400)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.launchbar.core.target.launch.LaunchConfigurationTargetedDelegate.superBuildForLaunch(LaunchConfigurationTargetedDelegate.java:61)
+	at com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigDelegate.buildForLaunch(SerialFlashLaunchConfigDelegate.java:257)
+	at org.eclipse.launchbar.ui.internal.commands.BuildActiveCommandHandler$1$1.run(BuildActiveCommandHandler.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.core.runtime.SubMonitor.checkCanceled(SubMonitor.java:602)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1559)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:437)
+	... 23 more
+!SUBENTRY 2 com.espressif.idf.core 4 0 2022-09-27 00:52:12.492
+!MESSAGE Building ESP32-LAB-Bink4
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.core.runtime.SubMonitor.checkCanceled(SubMonitor.java:602)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1559)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:437)
+	at org.eclipse.cdt.core.build.CBuilder.build(CBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:362)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:624)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:568)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:606)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:118)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2400)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.launchbar.core.target.launch.LaunchConfigurationTargetedDelegate.superBuildForLaunch(LaunchConfigurationTargetedDelegate.java:61)
+	at com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigDelegate.buildForLaunch(SerialFlashLaunchConfigDelegate.java:257)
+	at org.eclipse.launchbar.ui.internal.commands.BuildActiveCommandHandler$1$1.run(BuildActiveCommandHandler.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.espressif.idf.core 4 0 2022-09-27 00:52:12.493
+!MESSAGE Building ESP32-LAB-Bink4
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.core.runtime.SubMonitor.checkCanceled(SubMonitor.java:602)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1559)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:437)
+	at org.eclipse.cdt.core.build.CBuilder.build(CBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:362)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:624)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:568)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:606)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:118)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2400)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.launchbar.core.target.launch.LaunchConfigurationTargetedDelegate.superBuildForLaunch(LaunchConfigurationTargetedDelegate.java:61)
+	at com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigDelegate.buildForLaunch(SerialFlashLaunchConfigDelegate.java:257)
+	at org.eclipse.launchbar.ui.internal.commands.BuildActiveCommandHandler$1$1.run(BuildActiveCommandHandler.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:52:16.771
+!MESSAGE Source Template path:null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-27 00:52:16.984
+!MESSAGE Indexed 'Chasing-LED-V1' (1 sources, 0 headers) in 0.027 sec: 2 declarations; 2 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (20%)
+
+!ENTRY org.eclipse.core.expressions 4 201 2022-09-27 00:53:40.273
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4109)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3639)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2022-09-27 00:53:40.274
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:53:55.209
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:53:55.311
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:54:04.010
+!MESSAGE Source Template path:null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-27 00:54:06.485
+!MESSAGE Indexed 'Chasing-LED-V5' (1 sources, 0 headers) in 2.43 sec: 2 declarations; 2 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (20%)
+
+!ENTRY org.eclipse.core.expressions 4 201 2022-09-27 00:54:22.878
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4109)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3639)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2022-09-27 00:54:22.879
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY org.eclipse.core.expressions 4 201 2022-09-27 00:54:40.468
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5026)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4109)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3639)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2022-09-27 00:54:40.469
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:54:51.971
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:54:52.063
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 00:55:25.404
+!MESSAGE Source Template path:null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-27 00:55:27.865
+!MESSAGE Indexed 'ESP32-LAB-Chasing-LED-V1' (1 sources, 0 headers) in 2.42 sec: 2 declarations; 2 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (20%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:06:52.348
+!MESSAGE Project Name:: ESP32-LAB-Chasing-LED-V1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:06:52.353
+!MESSAGE Project:: P/ESP32-LAB-Chasing-LED-V1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:07:07.854
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:08:14.038
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:14:24.591
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:15:50.166
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:16:59.414
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:16:59.559
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:17:33.245
+!MESSAGE Source Template path:null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-27 01:17:36.164
+!MESSAGE Indexed 'ESP32-LAB-Chasing-LED-V2' (1 sources, 0 headers) in 2.85 sec: 2 declarations; 2 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (20%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:38:13.050
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:39:21.794
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:39:24.496
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:40:21.681
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:43:42.419
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:45:34.134
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:48:03.153
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:51:00.564
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:51:00.769
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 01:51:34.664
+!MESSAGE Source Template path:null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-27 01:51:36.840
+!MESSAGE Indexed 'ESP32-LAB-Chasing-LED-V3' (1 sources, 0 headers) in 2.12 sec: 2 declarations; 2 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (20%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 02:17:00.656
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 02:17:43.346
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 02:20:36.402
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+!SESSION 2022-09-27 02:22:08.114 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2022-09-27 02:22:19.179
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-27 02:22:19.179
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-27 02:22:19.179
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.fullcleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-27 02:22:19.179
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.pythoncleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-09-27 02:22:20.768
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-27 02:22:20.768
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-27 02:22:20.768
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.fullcleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-27 02:22:20.768
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.pythoncleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-27 02:22:26.932
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-27 02:22:26.937
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-27 02:22:26.939
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-27 02:22:26.942
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 02:22:26.964
+!MESSAGE Ignoring esp_idf.json settings as it was configured earilier.
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 02:22:27.606
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 02:22:27.613
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v4.4.2//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 02:22:27.616
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v4.4.2//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 02:22:27.928
+!MESSAGE Project Name:: ESP32-LAB-Chasing-LED-V3
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 02:22:27.930
+!MESSAGE Project:: P/ESP32-LAB-Chasing-LED-V3
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 02:22:33.479
+!MESSAGE idf_tools.py export output: OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 02:22:33.480
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-27 02:22:33.482
+!MESSAGE [C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%]
+!SESSION 2022-10-09 14:39:00.974 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2022-10-09 14:39:21.622
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-10-09 14:39:21.622
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-10-09 14:39:21.622
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.fullcleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-10-09 14:39:21.623
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.pythoncleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-10-09 14:39:26.457
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-10-09 14:39:26.457
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-10-09 14:39:26.457
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.fullcleanCommand', categoryId='com.espressif.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-10-09 14:39:26.457
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.pythoncleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-10-09 14:39:41.482
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-10-09 14:39:41.505
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-10-09 14:39:41.520
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-10-09 14:39:41.534
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:39:41.645
+!MESSAGE Ignoring esp_idf.json settings as it was configured earilier.
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:39:43.409
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:39:43.419
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v4.4.2//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:39:43.431
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v4.4.2//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:39:44.218
+!MESSAGE Project Name:: ESP32-LAB-Chasing-LED-V3
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:39:44.220
+!MESSAGE Project:: P/ESP32-LAB-Chasing-LED-V3
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:39:56.962
+!MESSAGE idf_tools.py export output: OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:39:56.964
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:39:56.967
+!MESSAGE [C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch3-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch3-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220411\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4.2\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:45:59.479
+!MESSAGE ESP-IDF v4.4.2-dirty
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:46:07.980
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:46:18.719
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:46:34.759
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:46:41.405
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:47:38.527
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:54:29.732
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:56:21.265
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:57:54.545
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 14:58:48.196
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 15:00:29.868
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 15:02:00.318
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 15:02:24.461
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 15:03:34.194
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 15:04:48.208
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 15:06:00.760
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 15:06:17.795
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 15:09:32.552
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-10-09 15:10:29.097
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4.2\tools\idf.py -p COM7 flash
