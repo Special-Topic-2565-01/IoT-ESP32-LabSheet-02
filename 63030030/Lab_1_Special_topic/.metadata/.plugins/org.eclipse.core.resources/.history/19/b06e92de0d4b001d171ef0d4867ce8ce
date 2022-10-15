@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include <unistd.h>
+#include "driver/gpio.h"
+
+uint32_t ON_time = 100000;
+uint32_t OFF_time = 100000;
+
+void app_main(void)
+{
+	gpio_reset_pin(23);
+
+	gpio_set_direction(23, GPIO_MODE_OUTPUT);
+
+    while (true)
+    {
+        gpio_set_level(23, 1);
+        usleep(ON_time);
+        gpio_set_level(23, 0);
+        usleep(OFF_time);
+        gpio_set_level(22, 1);
+        usleep(ON_time);
+        gpio_set_level(22, 0);
+        usleep(OFF_time);
+        gpio_set_level(1, 1);
+        usleep(ON_time);
+        gpio_set_level(1, 0);
+        usleep(OFF_time);
+        gpio_set_level(3, 1);
+        usleep(ON_time);
+        gpio_set_level(3, 0);
+        usleep(OFF_time);
+        gpio_set_level(21, 1);
+        usleep(ON_time);
+        gpio_set_level(21, 0);
+        usleep(OFF_time);
+        gpio_set_level(19, 1);
+        usleep(ON_time);
+        gpio_set_level(19, 0);
+        usleep(OFF_time);
+        gpio_set_level(18, 1);
+        usleep(ON_time);
+        gpio_set_level(18, 0);
+        usleep(OFF_time);
+        gpio_set_level(5, 1);
+        usleep(ON_time);
+        gpio_set_level(5, 0);
+        usleep(OFF_time);
+    }
+}

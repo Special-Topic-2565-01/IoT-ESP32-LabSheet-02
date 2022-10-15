@@ -1,0 +1,13 @@
+Total sizes:
+Used static DRAM:   11360 bytes ( 169376 remain, 6.3% used)
+      .data size:    9072 bytes
+      .bss  size:    2288 bytes
+Used static IRAM:   45762 bytes (  85310 remain, 34.9% used)
+      .text size:   44735 bytes
+   .vectors size:    1027 bytes
+Used Flash size :  124319 bytes
+      .text     :   89387 bytes
+      .rodata   :   34676 bytes
+Total image size:  179153 bytes (.bin may be padded larger)
+C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v4.4.2/\components\partition_table\gen_esp32part.py C:\Users\ACER\OneDrive\เอกสาร\GitHub\Special_toppic\Lab_1-Topic-3\build\partition_table\partition-table.bin
+Total time taken to build the project: 5,348 ms
