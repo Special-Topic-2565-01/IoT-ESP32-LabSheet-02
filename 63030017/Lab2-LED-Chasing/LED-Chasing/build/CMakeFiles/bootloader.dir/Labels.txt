@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+E:/Lab2/LED-Chasing/build/CMakeFiles/bootloader
+E:/Lab2/LED-Chasing/build/CMakeFiles/bootloader.rule
+E:/Lab2/LED-Chasing/build/CMakeFiles/bootloader-complete.rule
+E:/Lab2/LED-Chasing/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+E:/Lab2/LED-Chasing/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+E:/Lab2/LED-Chasing/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+E:/Lab2/LED-Chasing/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+E:/Lab2/LED-Chasing/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+E:/Lab2/LED-Chasing/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+E:/Lab2/LED-Chasing/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
