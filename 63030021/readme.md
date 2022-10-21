@@ -449,4 +449,117 @@ https://user-images.githubusercontent.com/110808235/197130169-190bae8b-7166-4f9d
 https://user-images.githubusercontent.com/110808235/197130210-5ac73779-0c8b-4d95-a6b6-1673a20b58e7.mp4
 
 
+## ขยายออก
+
+### Code
+```
+    #include <stdio.h>
+    #include <stdbool.h>
+    #include <unistd.h>
+    #include "driver/gpio.h"
+
+    uint32_t ON_time = 100000;
+    uint32_t OFF_time = 0;
+
+    uint8_t LEDIO[8] = { 23, 22, 1, 3, 21, 19, 18, 5 };
+
+    void app_main(void)
+    {
+        for (uint8_t i = 0; i < 8; i++)
+        {
+            gpio_reset_pin(LEDIO[i]);
+        }
+
+        for (uint8_t i = 0; i < 8; i++)
+        {
+            gpio_set_direction(LEDIO[i], GPIO_MODE_OUTPUT);
+        }
+
+        while (true)
+        {
+          for (uint8_t i = 3, j = 4; i > 0 && j < 8; i-- , j++)
+          {
+        	  gpio_set_level(LEDIO[i], 1);
+        	  gpio_set_level(LEDIO[j], 1);
+        	  usleep(ON_time);
+        	  gpio_set_level(LEDIO[i], 0);
+        	  gpio_set_level(LEDIO[j], 0);
+        	  usleep(OFF_time);
+          }
+          for (uint8_t i = 0, j = 7; i < 3 && j > 4; i++ , j--)
+          {
+        	  gpio_set_level(LEDIO[i], 1);
+        	  gpio_set_level(LEDIO[j], 1);
+        	  usleep(ON_time);
+        	  gpio_set_level(LEDIO[i], 0);
+        	  gpio_set_level(LEDIO[j], 0);
+        	  usleep(OFF_time);
+          }
+        }
+    }
+```
+### Video output
+
+
+https://user-images.githubusercontent.com/110808235/197135186-d3b88fea-849a-402e-a745-7d8acda94000.mp4
+
+
+
+
 ---
+## ยุบเข้า
+
+### Code
+```
+    #include <stdio.h>
+    #include <stdbool.h>
+    #include <unistd.h>
+    #include "driver/gpio.h"
+
+    uint32_t ON_time = 100000;
+    uint32_t OFF_time = 0;
+
+    uint8_t LEDIO[8] = { 23, 22, 1, 3, 21, 19, 18, 5 };
+
+    void app_main(void)
+    {
+        for (uint8_t i = 0; i < 8; i++)
+        {
+            gpio_reset_pin(LEDIO[i]);
+        }
+
+        for (uint8_t i = 0; i < 8; i++)
+        {
+            gpio_set_direction(LEDIO[i], GPIO_MODE_OUTPUT);
+        }
+
+        while (true)
+        {
+          for (uint8_t i = 0, j = 7; i < 3 && j > 4; i++ , j--)
+          {
+        	  gpio_set_level(LEDIO[i], 1);
+        	  gpio_set_level(LEDIO[j], 1);
+        	  usleep(ON_time);
+        	  gpio_set_level(LEDIO[i], 0);
+        	  gpio_set_level(LEDIO[j], 0);
+        	  usleep(OFF_time);
+          }
+          for (uint8_t i = 3, j = 4; i > 0 && j < 8; i-- , j++)
+          {
+        	  gpio_set_level(LEDIO[i], 1);
+        	  gpio_set_level(LEDIO[j], 1);
+        	  usleep(ON_time);
+        	  gpio_set_level(LEDIO[i], 0);
+        	  gpio_set_level(LEDIO[j], 0);
+        	  usleep(OFF_time);
+          }
+        }
+    }
+```
+### Video output
+
+
+
+https://user-images.githubusercontent.com/110808235/197137375-4a0ee177-c0a5-4cab-acb9-415f5dd7ea4e.mp4
+
+
