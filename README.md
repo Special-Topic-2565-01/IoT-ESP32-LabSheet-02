@@ -1,8 +1,8 @@
-## 63030072 เมธี ทองบุญนาค
+## 63030092 นายสุจินต์ เสริฐเกลือ
 
 *ข้อที่ 1 วิ่งไปสุดปลายทางแล้ววิ่งกลับ (ping-pong)*
 
-https://youtube.com/shorts/CjvsAcFfwKM?feature=share
+https://www.youtube.com/shorts/tFWqKvs4GGw
 ```c
     #include <stdio.h>
     #include <stdbool.h>
@@ -36,8 +36,7 @@ https://youtube.com/shorts/CjvsAcFfwKM?feature=share
 ```
 ##
 *ข้อที่ 2 ยืด-หด*
-
-https://youtube.com/shorts/SphuGJtYihk?feature=share
+https://www.youtube.com/shorts/_H4Iu3dtxI4
 ```c
     #include <stdio.h>
     #include <stdbool.h>
@@ -77,7 +76,7 @@ https://youtube.com/shorts/SphuGJtYihk?feature=share
 ##
 *ข้อที่ 3 ขยายออก*
 
-https://youtube.com/shorts/ETtvEOV11sM?feature=share
+https://www.youtube.com/shorts/rP62tJ11SBk
 ```c
     #include <stdio.h>
     #include <stdbool.h>
@@ -152,7 +151,7 @@ https://youtube.com/shorts/ETtvEOV11sM?feature=share
 ##
 *ข้อที่ 4 ยุบเข้า*
 
-[https://www.youtube.com/shorts/ViZad2xvUf0](https://youtube.com/shorts/tvWOmQbuCTg?feature=share)
+https://www.youtube.com/shorts/Z52eDeHGfw4
 ```c
     #include <stdio.h>
     #include <stdbool.h>
